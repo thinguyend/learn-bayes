@@ -10,7 +10,6 @@ import arviz as az
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.interpolate import BSpline
-from scipy.stats import gaussian_kde
 
 from jax import lax, vmap
 import jax.numpy as np
@@ -29,6 +28,7 @@ import numpyro.optim as optim
 - [4.3 Model Gaussian chiều cao](#3)
 - [4.4 Linear Model](#4)
 - [4.5 Cong từ thẳng](#5)
+- [Bài tập](https://nbviewer.jupyter.org/urls/vuongkienthanh.github.io/learn-bayes/notebooks/chap4_ex.ipynb)
 
 Ptolemy có một lịch sử khắc nghiệt. Claudius Ptolemy (90-168 sau công nguyên) là một nhà toán học và chiêm tinh gia người Ai Cập, ông được biết đến với model địa tâm trong hệ mặt trời. Ở hiện đại, nếu khoa học muốn chế giễu ai đó, thì họ sẽ ví ông như những kẻ tin vào thuyết địa tâm. Nhưng ông là một thiên tài. Model toán học về chuyển đạo hành tin cực kỳ chính xác. Để có được độ chính xác cao, ông dùng thiết bị tên là *epicycle*, tức vòng tròn trên vòng tròn. Có thể có epi-epicycle, vòng tròn trên vòng tròn trên vòng tròn. Nếu số lượng vòng tròn đủ và đúng, model của Ptolemy có thể dự báo chính xác chuyển đạo hành tinh với chính xác cao. Và nên model của ông đã được sử dụng hơn một nghìn năm. Ptolemy và những người như ông đã xây dựng những model này không cần sự hỗ trợ của máy tính. Ai ai cũng sẽ xấu hổ nếu so sánh với Ptolemy.
 
