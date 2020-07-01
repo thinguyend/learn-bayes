@@ -28,7 +28,7 @@ az.style.use("arviz-darkgrid")
 - [2.3 Các thành phần của model](#2.3)
 - [2.4 Cho model chạy](#2.4)
 - [2.5 Tổng kết](#2.5)
-- [2.6 Bài tập](https://nbviewer.jupyter.org/urls/vuongkienthanh.github.io/learn-bayes/notebooks/chap2_ex.ipynb)
+- [Bài tập]https://nbviewer.jupyter.org/github/vuongkienthanh/learn-bayes/blob/master/notebooks/chap2_ex.ipynb
 
 
 Cristoforo Colombo (Christopher Columbus) cho thuyền ra khơi và đi theo hướng Tây vào năm 1492, lúc ấy ông nghĩ rằng Trái Đất hình cầu. Ông cũng giống nhưng người được học khác lúc bấy giờ. Nhưng ông khác ở chỗ ông nghĩ rằng chu vi xích đạo chỉ có 30.000 km chứ thực ra là 40.000 km. Đây là một sai lầm ảnh hưởng nghiêm trọng nhất của lịch sử Châu Âu. Nếu Colombo tính được Trái Đất có chu vi xích đạo là 40.000 thì đoàn thuyền của ông đã mang đủ thức ăn và nước uống để hoàn thành cuộc du hành hướng tây đến Châu Á. Nhưng với 30.000 km, Châu Á sẽ nằm ở bờ Tây của California, và thuyền của ông vẫn có thể mang đủ lương thực khi tới đó. Với sự tự tin vào ước lượng của mình, Colombo ra khơi, và cuối cùng đặt chân đến vùng đất Bahamas.

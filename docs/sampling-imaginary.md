@@ -24,7 +24,7 @@ az.style.use("arviz-darkgrid")
 - [3.2 Lấy mẫu để mô tả](#3.2)
 - [3.3 Lấy mẫu để mô phỏng dự đoán](#3.3)
 - [3.4 Tổng kết](#3.4)
-- [3.5 Bài tập](https://nbviewer.jupyter.org/github/vuongkienthanh/learn-bayes/blob/master/notebooks/chap3_ex.ipynb)
+- [Bài tập](https://nbviewer.jupyter.org/github/vuongkienthanh/learn-bayes/blob/master/notebooks/chap3_ex.ipynb)
 
 
 Nhiều sách giới thiệu thống kê Bayes và suy luận posterior bằng tình huống xét nghiệm y khoa. Ví dụ có một xét nghiệm vampire chính xác 95%, có thể mô tả bằng công thức Pr(dương \| vampire) = 0.95. Đây là một xét nghiệm có độ chính xác cao, hầu như xác định đúng vampire thật. Nhưng nó cũng có thể lỗi, dưới dạng dương tính giả. Một phần trăm trường hợp, nó chẩn đoán sai người thường là vampire, Pr(dương \| người) = 0.01. Thông tin cuối cùng là vampire rất hiếm, chiếm 0.1% dân số, suy ra Pr(vampire) = 0.001. Giả sử một người nào đó bị test dương tính. Vậy người đó có xác suất bao nhiêu phần trăm là con quái vật hút máu?
